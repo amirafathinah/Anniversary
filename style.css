@@ -361,7 +361,7 @@ section {
     justify-content: center; 
     height: 80vh; 
     text-align: center; 
-    background: linear-gradient(to bottom, black, #51a8eb); 
+    background: linear-gradient(270deg, #51a8eb 10%, #083b65 100%); 
 }
 
 .text-container h1 {
