@@ -379,16 +379,15 @@ section {
 .port-image {
     display: flex;
     align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 5rem 2rem;
     justify-content: center;
-    height: 100%; 
-    width: 100%; 
+    height: 100%; /* Sesuaikan dengan tinggi kotak */
+    width: 100%; /* Sesuaikan dengan lebar kotak */
 }
 
-.port-image img {
-    max-width: 200px; 
-    transition: 0.5s;
-    object-fit: cover; 
 
+.port-image img {
+    max-width: 20%; /* Membatasi lebar maksimum gambar */
+    height: auto; /* Menjaga proporsi gambar */
+    transition: 0.5s;
+    object-fit: cover; /* Agar gambar menyesuaikan dengan kontainer tanpa distorsi */
+}
