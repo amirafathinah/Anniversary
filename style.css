@@ -354,6 +354,29 @@ section {
 }
 
 
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Menyelaraskan teks secara horizontal */
+    justify-content: center; /* Menyelaraskan teks secara vertikal */
+    height: 100vh; /* Mengatur tinggi kontainer sesuai tinggi viewport */
+    text-align: center; /* Menyelaraskan teks di tengah */
+    background: linear-gradient(to bottom, black, blue); /* Latar belakang gradien */
+}
+
+.text-container h1 {
+    font-size: 4rem; /* Ukuran font besar untuk judul */
+    color: white; /* Warna teks putih */
+    margin: 0; /* Menghilangkan margin default */
+}
+
+.text-container p {
+    font-size: 2rem; /* Ukuran font lebih kecil untuk paragraf */
+    color: white; /* Warna teks putih */
+    margin: 0; /* Menghilangkan margin default */
+}
+
+
 .port-box{
     display: inline-block;
     border-radius: 10px;
