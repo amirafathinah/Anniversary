@@ -359,6 +359,8 @@ section {
     overflow: hidden;
     background: var(--bg-color);
     display: flex;
+    flex-direction: column;
+    max-height: 200px;
     grid-template-rows: 1fr auto;
     align-items: center;
     border: 2px solid var(--main-color);
