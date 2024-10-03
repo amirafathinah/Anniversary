@@ -356,7 +356,7 @@ section {
 
 .port-box{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
     place-items: center;
     gap: 3rem;
     row-gap: 5rem;
@@ -379,6 +379,9 @@ section {
 .port-image {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem 2rem;
     justify-content: center;
     height: 100%; 
     width: 100%; 
