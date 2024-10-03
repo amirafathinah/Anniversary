@@ -349,7 +349,7 @@ section {
 
 .gallery-gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax (270px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax (150px, 1fr));
     gap: 2rem;
 }
 
@@ -369,23 +369,21 @@ section {
 
 
 .port-box:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 
-.port-image{
+.port-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50%;
-    width: 50%;
+    height: 100%; 
+    width: 100%; 
 }
 
-
-.port-image img{
-    width: 20%;
-    opacity: 0.5s;
-    height: auto;
+.port-image img {
+    width: 100%; 
+    height: auto; 
     transition: 0.5s;
-}
+    object-fit: cover; 
 
