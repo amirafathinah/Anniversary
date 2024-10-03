@@ -349,17 +349,13 @@ section {
 
 .gallery-gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax (50px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax (10px, 1fr));
     gap: 2rem;
 }
 
 
 .port-box{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
-    place-items: center;
-    gap: 3rem;
-    row-gap: 5rem;
+    display: flex;
     border-radius: 15px;
     overflow: hidden;
     background: var(--bg-color);
