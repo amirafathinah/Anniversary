@@ -7,6 +7,7 @@
     font-family: "Poppins";
 }
 
+
 :root {
     --bg-color: #080808;
     --second-bg-color: #101010;
@@ -14,15 +15,18 @@
     --main-color: #51a8eb;
 }
 
+
 html {
     font-size: 60%;
     overflow-x: hidden;
 }
 
+
 body {
     background: var(--bg-color);
     color: var(--text-color);
 }
+
 
 .header {
     position: fixed;
@@ -38,6 +42,7 @@ body {
     z-index: 1000;
 }
 
+
 #menu-icon {
     font-size: 3rem;
     color: var(--text-color);
@@ -46,11 +51,13 @@ body {
     transition: 0.3s ease-in-out;
 }
 
+
 span {
     background: linear-gradient(270deg, #51a8eb 10%, #083b65 100%);
     background-clip: text;
     color: transparent;
 }
+
 
 .navbar a {
     font-size: 1.8rem;
@@ -61,10 +68,12 @@ span {
     border-bottom: 3px solid transparent;
 }
 
+
 .navbar a:hover {
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
 }
+
 
 .gradient-btn {
     font-size: 1.8rem;
@@ -78,14 +87,17 @@ span {
     border: none;
 }
 
+
 .gradient-btn:hover {
     transform: scale(1.05);
 }
+
 
 section {
     min-height: 100vh;
     padding: 10rem 15%;
 }
+
 
 .home {
     display: flex;
@@ -93,6 +105,7 @@ section {
     justify-content: center;
     gap: 15rem;
 }
+
 
 .home-content {
     display: flex;
@@ -108,10 +121,12 @@ section {
     line-height: 1;
 }
 
+
 .home-content h3 {
     margin: 1rem 0;
     font-size: 4rem;
 }
+
 
 .home-content p {
     font-size: 1.5rem;
@@ -126,17 +141,20 @@ section {
     transition: 0.4s ease-in-out;
 }
 
+
 .home-img img:hover {
     box-shadow: 0 0 25px var(--main-color),
                 0 0 50px var(--main-color),
                 0 0 100px var(--main-color);
 }
 
+
 .social-icons {
     display: flex;
     justify-content: center;
     margin: 3rem 0; /* Adjust margin as needed */
 }
+
 
 .social-icons a {
     display: inline-flex;
@@ -152,6 +170,7 @@ section {
     transition: 0.3s ease-in-out;
 }
 
+
 .social-icons a:hover {
     color: var(--text-color);
     background-color: var(--main-color);
@@ -159,12 +178,14 @@ section {
     box-shadow: 0 0 25px var(--main-color);
 }
 
+
 .btn-group {
     display: flex;
     justify-content: center; 
     gap: 1.5rem;
     margin-top: 2rem; 
 }
+
 
 .btn {
     display: inline-block;
@@ -179,11 +200,13 @@ section {
     transition: 0.3s ease-in-out;
 }
 
+
 .btn:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px var(--main-color),
                 0 0 50px var(--main-color);
 }
+
 
 .btn-group a:nth-of-type(2) {
     background-color: black;
@@ -192,11 +215,13 @@ section {
     box-shadow: 0 0 25px transparent;
 }
 
+
 .btn-group a:nth-of-type(2):hover {
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
     color: black;
 }
+
 
 .word{
     display: flex;
@@ -205,49 +230,65 @@ section {
     gap: 10rem;
     background: var(--second-bg-color);
 }
+
+
 .word-img img{
     width: 32vw;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.4s ease-in-out;
 }
+
+
 .word-img img:hover{
     box-shadow: 0 0 25px var(--main-color),
                 0 0 50px var(--main-color),
                 0 0 100px var(--main-color);
 }
+
+
 .word-content h2{
     font-size: 7rem;
     text-align: left;
 }
+
+
 .word-content p{
     font-size: 1.8rem;
 }
+
+
 .word-content .btn{
     margin: 3rem 0;
 }
+
 
 ::-webkit-scrollbar{
     width: 20px;
 }
 
+
 ::-webkit-scrollbar-thumb{
     background-color: var(--main-color);
 }
 
+
 ::-webkit-scrollbar-track{
     background-color: var(--bg-color);
 }
+
 
 .wish{
     background: var(--bg-color);
     color: black;
 }
 
+
 .wish h2{
     margin-bottom: 5rem;
     color: white;
 }
+
 
 .wish-container{
     display: grid;
@@ -255,6 +296,7 @@ section {
     align-items: center;
     gap: 2.5rem;
 }
+
 
 .wish-box{
     background-color: var(--main-color);
@@ -265,12 +307,14 @@ section {
     transition: 0.4s ease-in-out;
 }
 
+
 .wish-box:hover{
     background: black;
     color: var(--main-color);
     border: 5px solid var(--main-color);
     transform: scale(1.03);
 }
+
 
 .wish-box .wish-info{
     display: flex;
@@ -290,3 +334,54 @@ section {
     line-height: 1.7;
     margin: auto;
 }
+
+
+.filter-buttons{
+    margin: 2rem;
+    text-align: center;
+}
+
+
+
+.gallery-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax (270px, 1fr));
+    gap: 2rem;
+}
+
+
+.port-box{
+    border-radius: 15px;
+    overflow: hidden;
+    background: var(--bg-color);
+    display: flex;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 25px var(--main-color),
+                0 0 50px var(--main-color),
+                0 0 100px var(--main-color);
+}
+
+
+.port-box:hover{
+    transform: scale(1.1);
+}
+
+
+.port-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.port-image img{
+    width: 100%;
+    opacity: 0.5s;
+    height: 100%;
+    transition: 0.5s;
+}
+
