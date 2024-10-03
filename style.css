@@ -349,7 +349,7 @@ section {
 
 .gallery-gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax (10px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax (15px, 1fr));
     gap: 2rem;
 }
 
@@ -368,7 +368,7 @@ section {
 
 
 .port-box:hover{
-    transform: scale(1.05);
+    transform: scale(0.8);
 }
 
 
@@ -382,7 +382,7 @@ section {
 
 
 .port-image img {
-    max-width: 20%; /* Membatasi lebar maksimum gambar */
+    max-width: 100%; /* Membatasi lebar maksimum gambar */
     height: auto; /* Menjaga proporsi gambar */
     transition: 0.5s;
     object-fit: cover; /* Agar gambar menyesuaikan dengan kontainer tanpa distorsi */
