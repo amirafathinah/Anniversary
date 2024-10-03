@@ -355,7 +355,7 @@ section {
 
 
 .port-box{
-    display: flex;
+    display: inline-block;
     border-radius: 15px;
     overflow: hidden;
     background: var(--bg-color);
