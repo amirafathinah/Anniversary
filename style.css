@@ -309,6 +309,10 @@ section {
 }
 
 
+.wish-box:last-child {
+}
+
+
 .wish-box:hover{
     background: black;
     color: var(--main-color);
@@ -380,7 +384,7 @@ section {
 
 
 .port-image img{
-    width: 50%;
+    width: 20%;
     opacity: 0.5s;
     height: auto;
     transition: 0.5s;
