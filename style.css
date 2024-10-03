@@ -385,8 +385,7 @@ section {
 }
 
 .port-image img {
-    width: 100%; 
-    height: auto; 
+    max-width: 200px; 
     transition: 0.5s;
     object-fit: cover; 
 
