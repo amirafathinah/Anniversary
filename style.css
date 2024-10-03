@@ -379,9 +379,9 @@ section {
 
 
 .port-image img{
-    width: 100%;
+    width: 50%;
     opacity: 0.5s;
-    height: 100%;
+    height: auto;
     transition: 0.5s;
 }
 
